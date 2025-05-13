@@ -1,23 +1,21 @@
 package com.dmarqss.stockFlowWeb.controller.products;
 
 import com.dmarqss.stockFlowWeb.models.products.ProductRequestDto;
-import com.dmarqss.stockFlowWeb.service.productService.ProductService;
+import com.dmarqss.stockFlowWeb.services.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 @RequestMapping(path = "stock")
-public class ProductController {
+public class StockController {
     @Autowired
     ProductService productService;
 
     @GetMapping
-    public ModelAndView pageViewStock(){
+    public ModelAndView ViewStock(){
         ModelAndView mv = new ModelAndView("viewStock");
         mv.addObject("products", productService.listAll());
         return mv;

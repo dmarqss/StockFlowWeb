@@ -1,4 +1,4 @@
-package com.dmarqss.stockFlowWeb.service.productService;
+package com.dmarqss.stockFlowWeb.services;
 
 
 import com.dmarqss.stockFlowWeb.models.products.Product;

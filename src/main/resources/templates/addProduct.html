@@ -20,7 +20,12 @@
 <body>
 <div class="conteiner-fluid">
     <div id="navBar" class="col-1">
-        <div id="navOptionsSelect">
+        <div class="navOptions">
+            <a href="/home">
+                <h3>Stock Flow</h3>
+            </a>
+        </div>
+        <div class="navOptions">
             <a href="/stock">
             <box-icon class="img" name='package'></box-icon>
             </a>
@@ -30,7 +35,7 @@
         </div>
         <div class="navOptions">
             <a href="">
-                <box-icon class="img" name='add-to-queue' color="#84F85D"></box-icon>
+                <box-icon id="select" class="img" color="#84F85D" name='add-to-queue'></box-icon>
             </a>
             <p>Add new</p>
 
@@ -51,7 +56,7 @@
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Inform the Ean</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <form method="get" action="stock/edit">
+                <form method="get" th:action="@{/stock/edit}">
                     <div class="modal-body">
                         <input type="number" min="0" class="form-control" placeholder="Ean" aria-label="Ean" name="ean">
 
@@ -67,7 +72,7 @@
     <div id="content" class="col-11">
         <p>Provide product data</p>
         <div class="table">
-            <form id="form" method="post" action="/stock" >
+            <form id="form" method="post" th:action="@{/stock}" >
 
                 <div class="input-group mb-3" >
                     <input type="text" class="form-control" placeholder="Name" aria-label="Name" name="name">

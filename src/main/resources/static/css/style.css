@@ -17,19 +17,14 @@
 
 }
 
-#navOptionsSelect {
-    border-radius: 5px;
-    margin: 8px;
-    padding: 5px;
-    background-color: #ffffff;
-    text-align: center;
 
-
+#select{
+    color: #84F85D;
 }
 
 .img {
-    width: 55%;
-    height: 55%;
+    width: 40%;
+    height: 40%;
 }
 
 #content {
@@ -56,3 +51,19 @@
 
 }
 
+
+a {
+    color: #000000;
+ }
+
+ a:visited {
+     color: #000000;
+ }
+
+ a:hover {
+     color: #000000;
+ }
+
+ a:active {
+     color: #000000;
+ }
