@@ -1,0 +1,7 @@
+/home/dmarqss/estudos/stockFlowWeb/src/main/java/com/dmarqss/stockFlowWeb/StockFlowWebApplication.java
+/home/dmarqss/estudos/stockFlowWeb/src/main/java/com/dmarqss/stockFlowWeb/controller/products/HomeControler.java
+/home/dmarqss/estudos/stockFlowWeb/src/main/java/com/dmarqss/stockFlowWeb/controller/products/StockController.java
+/home/dmarqss/estudos/stockFlowWeb/src/main/java/com/dmarqss/stockFlowWeb/models/products/Product.java
+/home/dmarqss/estudos/stockFlowWeb/src/main/java/com/dmarqss/stockFlowWeb/models/products/ProductRequestDto.java
+/home/dmarqss/estudos/stockFlowWeb/src/main/java/com/dmarqss/stockFlowWeb/repository/productsRespository/ProductRepository.java
+/home/dmarqss/estudos/stockFlowWeb/src/main/java/com/dmarqss/stockFlowWeb/services/ProductService.java

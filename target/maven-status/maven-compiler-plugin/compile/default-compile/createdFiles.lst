@@ -1,0 +1,7 @@
+com/dmarqss/stockFlowWeb/repository/productsRespository/ProductRepository.class
+com/dmarqss/stockFlowWeb/controller/products/StockController.class
+com/dmarqss/stockFlowWeb/models/products/Product.class
+com/dmarqss/stockFlowWeb/StockFlowWebApplication.class
+com/dmarqss/stockFlowWeb/services/ProductService.class
+com/dmarqss/stockFlowWeb/models/products/ProductRequestDto.class
+com/dmarqss/stockFlowWeb/controller/products/HomeControler.class
